@@ -8,7 +8,7 @@ all: maximillion
 
 .PHONY: clean
 clean:
-	rm -f *.o maximillian
+	rm -f *.o maximilian
 
 maximillion:
 	$(CC) $(CCFLAGS) $(SOUNDLIB) -o maximilian main.cpp RtAudio.cpp player.cpp maximilian.cpp $(LIBS)
