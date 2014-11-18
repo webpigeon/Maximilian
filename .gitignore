@@ -3,6 +3,8 @@
 *.mode2v3
 build
 
+# Linux
+maximilian
 
 build
 .DS_Store
